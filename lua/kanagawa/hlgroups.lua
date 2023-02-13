@@ -322,6 +322,13 @@ function M.setup(colors, config)
         TelescopeResultsStruct = { link = "TSType" },
         TelescopeResultsVariable = { link = "TSVariable" },
 
+        -- Leap
+        LeapBackdrop = { fg = colors.fg_comment },
+        LeapLabelPrimary = { bold = true, fg = colors.fg},
+        LeapLabelSecondary = { bold = true, fg = colors.fg_dark},
+        LeapMatch = { bg =colors.co, bold = true, fg = colors.fg},
+
+
         -- NvimTree                       = {},
         NvimTreeNormal = { link = "Normal" },
         NvimTreeNormalNC = { link = "NormalNC" },
