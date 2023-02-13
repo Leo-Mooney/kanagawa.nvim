@@ -326,7 +326,7 @@ function M.setup(colors, config)
         LeapBackdrop = { fg = colors.fg_comment},
         LeapLabelPrimary = { bold = true, fg = colors.fg_dark},
         LeapLabelSecondary = { bold = true, fg = colors.fg},
-        LeapMatch = {underline=true, bg = colors.bg, bold = true, fg = colors.fg_dark},
+        LeapMatch = { bg = colors.bg_search, bold = true, fg = colors.fg_dark},
 
 
         -- NvimTree                       = {},
