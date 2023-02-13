@@ -323,7 +323,7 @@ function M.setup(colors, config)
         TelescopeResultsVariable = { link = "TSVariable" },
 
         -- Leap
-        LeapBackdrop = { fg = colors.bg},
+        LeapBackdrop = { fg = colors.fg_comment},
         LeapLabelPrimary = { bold = true, fg = colors.fg_dark},
         LeapLabelSecondary = { bold = true, fg = colors.fg},
         LeapMatch = { bg = colors.bg, bold = true, fg = colors.fg_dark},
