@@ -324,7 +324,7 @@ function M.setup(colors, config)
 
         -- Leap
         LeapBackdrop = { fg = colors.fg_comment },
-        LeapLabelPrimary = { bold = true, fg = colors.fg},
+        LeapLabelPrimary = { bold = true, fg = colors.co},
         LeapLabelSecondary = { bold = true, fg = colors.fg_dark},
         LeapMatch = { bg =colors.co, bold = true, fg = colors.fg},
 
