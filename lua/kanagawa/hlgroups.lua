@@ -56,7 +56,7 @@ function M.setup(colors, config)
         SignColumn = { fg = colors.bg_light2 },
         SignColumnSB = { link = "SignColumn" },
         Substitute = { fg = colors.fg, bg = colors.git.removed },
-        LineNr = { fg = colors.bg_light2 },
+        LineNr = { fg = colors.bg_light3 },
         CursorLineNr = { fg = colors.diag.warning, bold = true },
         MatchParen = { fg = colors.diag.warning, bold = true },
         ModeMsg = { fg = colors.diag.warning, bold = true },
